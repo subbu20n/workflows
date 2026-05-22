@@ -18,8 +18,8 @@ runs:
   using: composite
   steps:
     - shell: bash
-      env:
-        TOKEN: ${{ inputs.token }}
+      env: 
+        TOKEN: ${{ inputs.token }}  
         STATE: ${{ inputs.state }}
         CONTEXT: ${{ inputs.context }}
         DESCRIPTION: ${{ inputs.description }}
